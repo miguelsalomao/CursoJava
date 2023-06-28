@@ -1,3 +1,4 @@
+package Exercicios1;
 
 import java.util.Scanner;
 
@@ -6,6 +7,7 @@ public class SomaPares{
 	public static void main(String args[]) {
 		
 		// Recebimento do valor de entrada.
+		System.out.println("Informe até que número os pares devem ser somados:");
 		Scanner sc = new Scanner(System.in);
 		int numEntrada = sc.nextInt();
 		sc.close();
@@ -20,7 +22,7 @@ public class SomaPares{
 			}		
 		}
 		
-		System.out.printf("Resultado da soma dos números pares de 0 a %d é %d.", numEntrada, soma);
+		System.out.printf("\nResultado da soma dos números pares de 0 a %d é %d.", numEntrada, soma);
   
 	}
   
