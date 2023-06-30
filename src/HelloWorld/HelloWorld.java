@@ -1,4 +1,4 @@
-package Exercicios1;
+package HelloWorld;
 
 public class HelloWorld{
   public static void main(String args[]) {
