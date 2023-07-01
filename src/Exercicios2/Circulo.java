@@ -1,3 +1,8 @@
+/*
+ Lista de exercícios: 2.
+ Exercício: 2.
+ */
+
 package Exercicios2;
 
 public class Circulo extends Forma {

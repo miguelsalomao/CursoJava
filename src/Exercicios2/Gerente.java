@@ -1,3 +1,8 @@
+/*
+ Lista de exercícios: 2.
+ Exercício: 3.
+ */
+
 package Exercicios2;
 
 public class Gerente extends Funcionario{

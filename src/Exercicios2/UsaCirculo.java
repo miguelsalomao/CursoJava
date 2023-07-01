@@ -1,3 +1,8 @@
+/*
+ Lista de exercícios: 2.
+ Exercício: 1.
+ */
+
 package Exercicios2;
 
 import java.util.Scanner;

@@ -1,8 +1,13 @@
+/*
+ Lista de exercícios: 1.
+ Exercício: 5.
+ */
+
 package Exercicios1;
 
 import java.util.Scanner;
 
-public class Palindrome {
+public class Palindromo {
 
 	public static void main(String args[]) {
 		
