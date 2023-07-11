@@ -1,3 +1,7 @@
+/*
+	Não houve um exercício prático específico de tratamento de exceções. Criei esse para testar os conceitos.
+ */
+
 package Lista6.Exception;
 
 public class TratamentoExcecoes {
