@@ -10,7 +10,14 @@ public class Pilha<T> {
     private int topo;
 
     //Construtor que recebe o tamanho do array elementos como parâmetro.
+	@SuppressWarnings("unchecked") // Para suprimir a mensagem de warning "Type safety: Unchecked cast from
+									// Object[] to T[]" durante o instanciamento e cast de "elemento". Esse warning
+									// significa que o compilador nao pode garantir a segurança na tipagem. Trata-se
+									// de um downcast onde o compilador nao faz ideia do tipo de objeto que esta sento atribuido. 
+    																																																	
     public Pilha(int capacidade) {
+		// elementos = new T[tamanho]; //Isso não funciona provavelmente para que se
+    								   // mantenha compatibilidade com códigos antigos antes da inovação do Generics.    	
     	elementos = (T[]) new Object[capacidade];
     	topo = -1;
     }
